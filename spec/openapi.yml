@@ -11,10 +11,8 @@ externalDocs:
 servers:
     - url: 'http://localhost:7890'
       description: 'Local development'
-    - url: 'http://hugetestalice2.nem.ninja:7890'
-      description: 'Huge Alice Testnet'
-    - url: 'http://hugealice2.nem.ninja:7890'
-      description: 'Huge Alice Mainnet'
+    - url: 'http://54.170.97.221:7890'
+      description: 'Mainnet NGL Node - SuperAlice'
 components:
     parameters:
         $ref: './parameters/_index.yml'
