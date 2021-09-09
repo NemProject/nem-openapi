@@ -1,10 +1,10 @@
 type: object
 description: A NodeCollection object holds arrays of nodes with different statuses.
 required:
+    - active
     - inactive
     - failure
     - busy
-    - active
 properties:
     active:
         type: array

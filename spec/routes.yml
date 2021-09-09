@@ -2,8 +2,8 @@
     get:
         tags:
             - Node
-        summary: Get basic node information
-        description: Gets basic information about a node
+        summary: Gets basic node information.
+        description: Gets basic information about the node.
         operationId: nodeInfo
         responses:
             '200':
