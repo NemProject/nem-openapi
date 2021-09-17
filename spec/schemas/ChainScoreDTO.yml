@@ -1,0 +1,10 @@
+type: object
+description: The block chain score is a measure how good the block chain is. The higher the score, the better the block chain is.
+required:
+    - score
+properties:
+    score:
+        type: string
+        description: The score is an integer greater or equal to zero. It is submitted in hexadecimal format.
+        example: 12ba672a4969562b74
+        pattern: '^([0-9A-Fa-f])+$'
