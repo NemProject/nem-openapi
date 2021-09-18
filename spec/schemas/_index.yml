@@ -3,10 +3,10 @@ AllNodesDTO:
     '$ref': './AllNodesDTO.yml'
 BlockHeightDTO:
     '$ref': './BlockHeightDTO.yml'
+ChainScore:
+    '$ref': './ChainScore.yml'
 ChainScoreDTO:
     '$ref': './ChainScoreDTO.yml'
-Hash:
-    '$ref': './Hash.yml'
 Height:
     '$ref': './Height.yml'
 NetworkId:

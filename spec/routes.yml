@@ -77,8 +77,8 @@
         tags:
             - Chain
         summary: Chain Score
-        description: Gets the current scroe of the block chain.
-        operationId: chainSocre
+        description: Gets the current score of the block chain.
+        operationId: chainScore
         responses:
             '200':
                 description: success
